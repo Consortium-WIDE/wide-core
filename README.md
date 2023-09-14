@@ -3,8 +3,7 @@ version: 0.1
 Last Edit: 2023-09-15
 tags: WIDE, EUDIW, DID, claims
 email: bb@acurraent.com
-authors: @benedictvscriticus
-
+authors: benedictvscriticus
 ---
 
 # WIDE Core Library
@@ -33,4 +32,4 @@ For enabling Web3 identities to be used by DAOs and in education, **WIDE** enabl
 
 This research and development project is part of the **NGI TRUSTCHAIN #OC1**. All software code is provided as is and without warranty under permissible EUPL 1.2 licencing. This project is funded by an European Horizon Grant under the grant agreement number: XXXX.
 
-![NGI EU Funding](https://github.com/Consortium-WIDE/wide-core/assets/104435781/e239859a-2a25-4b6a-b143-731119e44a23)
+![NGI EU Funding](https://github.com/Consortium-WIDE/wide-core/assets/104435781/a4188f37-5e59-4100-a889-e6a6a18f7dbb)
