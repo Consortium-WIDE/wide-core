@@ -1,29 +1,33 @@
 ---
+version: 0.1
+Last Edit: 2023-09-15
 tags: WIDE, EUDIW, DID, claims
 email: bb@acurraent.com
-version: 0.1
+authors: @benedictvscriticus
+
 ---
 
 # WIDE Core Library
-
-| Version| Last Edit | Author |
-|-----|-----|-----|
-| 0.1 | 2023-09-15| @benedictvscriticus| 
-
-
-## Executive Summary
 
 **WIDE** is short for Web3 Identity for DAOs and Education. The project was incepted in response to the 2023 #OC1 by the NGI TRUSTCHAIN consortium. **WIDE** is being developed and maintained by a consortium led by @acurraent, coordinated by @joshuaellul, Director of the Centre for Distributed Ledger Technologies at the University of Malta, and the technical lead @scermat.
 
 For enabling Web3 identities to be used by DAOs and in education, **WIDE** enables users to export their 
 
+## Executive Summary
 ## A Decentralised Identity Bridge
 
+## Scope of Work
+
+## Features
+
+## Functionalities
 
 
+## Architecture
 
+## Technologies
 
-
+## Application & Use Cases
 
 ## Disclaimer
 
