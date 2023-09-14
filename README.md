@@ -1,1 +1,17 @@
-# wide-core
+# WIDE Core Library
+
+## A Decentralised Identity Bridge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
