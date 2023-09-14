@@ -6,9 +6,11 @@ email: bb@acurraent.com
 authors: benedictvscriticus
 ---
 
+![Group 57](https://github.com/Consortium-WIDE/wide-core/assets/104435781/b842c1f0-aa37-4079-9500-425732f286d3)
+
 # WIDE Core Library
 
-**WIDE** is short for Web3 Identity for DAOs and Education. The project was incepted in response to the 2023 #OC1 by the NGI TRUSTCHAIN consortium. **WIDE** is being developed and maintained by a consortium led by @acurraent, coordinated by @joshuaellul, Director of the Centre for Distributed Ledger Technologies at the University of Malta, and the technical lead @scermat.
+**WIDE** is short for Web3 Identity for DAOs and Education. The project was incepted in response to the 2023 #OC1 by the NGI TRUSTCHAIN consortium. **WIDE** is being developed and maintained by a consortium led by acurraent UG, coordinated by Joshua Ellul, Director of the Centre for Distributed Ledger Technologies at the University of Malta, and the technical lead Matthew Scerri .
 
 For enabling Web3 identities to be used by DAOs and in education, **WIDE** enables users to export their 
 
@@ -25,6 +27,7 @@ For enabling Web3 identities to be used by DAOs and in education, **WIDE** enabl
 ## Architecture
 
 ## Technologies
+
 
 ## Application & Use Cases
 
