@@ -29,7 +29,7 @@ The WIDE digital identity bridge enables users to export identity data from wall
 
 ## Architecture
 
-
+![WIDE_General_Architecture](https://github.com/Consortium-WIDE/wide-core/assets/104435781/ab467a05-f8be-49e9-ace2-7858f48297bd)
 
 ## Technologies
 
@@ -41,3 +41,4 @@ The WIDE digital identity bridge enables users to export identity data from wall
 This research and development project is part of the **NGI TRUSTCHAIN #OC1**. All software code is provided as is and without warranty under permissible EUPL 1.2 licencing. This project is funded by a cascade funding partner through a European Horizon Grant under the ONTOCHAIN grant with grant agreement number: 957338.
 
 ![NGI EU Funding](https://github.com/Consortium-WIDE/wide-core/assets/104435781/a4188f37-5e59-4100-a889-e6a6a18f7dbb)
+
