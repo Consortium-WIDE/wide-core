@@ -1,6 +1,6 @@
 ---
 version: 0.1
-Last Edit: 2023-09-15
+Last Edit: 2023-09-22
 tags: WIDE, EUDIW, DID, claims
 email: bb@acurraent.com
 authors: benedictvscriticus
@@ -15,15 +15,41 @@ authors: benedictvscriticus
 For enabling Web3 identities to be used by DAOs and in education, **WIDE** enables users to export their 
 
 ## Executive Summary
+
 ## A Decentralised Identity Bridge
 
 ## Scope of Work
 
+## Definitions
+
+### Digital Identity Bridge
+
+### Verifier
+
+### Relying Party
+
+### Identity Proxy
+
+### WIDE Bridging Server
+
 ## Features
+
+1. UI-based data export
+2. Privacy-preserving cloud storage
+3. Web3-based open authentication
+4. Simple data sharing
+5. Reliable identity storage
+6. Native EVM-support
+7. Portable and trustworthy data attestations
+8. Simple UI-based identity card management
 
 ## Functionalities
 
-The WIDE digital identity bridge enables users to export identity data from wallets of closed identity networks and use the identity data with their Ethereum-compliant key pairs throughout the full identity lifecycle. All data is protected through client-side encryption and presented to relying parties through reversed Open Identity Connect flows. The WIDE bridge acts as privacy preserving, but server-based remote storage of encrypted claims. When the wallet presents claims, it requests them from the WIDE bridging server. The wallet then acts as a proxy to forward the data to the relying party. The relying party can verify that a dataset with the same hash was indeed uploaded 
+The WIDE digital identity bridge enables users to export identity data from wallets of closed identity networks and use the identity data with their Ethereum-compliant key pairs throughout full identity lifecycles. All data is protected through client-side encryption and presented to relying parties through reversed Open Identity Connect flows. In short, WIDE provides exporting, persisting, as well as encryption -, storage -, and presentation capabilities for long-lived any-wise identifiers in storage-scarce Web3 wallets. 
+
+Bridging refers to the privacy preserving, but server-based remote storage of encrypted claims and their presentation over Web2 flows. When the wallet presents claims, it requests them from the WIDE bridging server. The wallet then acts as a proxy to forward the data to the relying party. The relying party can verify that a dataset with the same hash was indeed uploaded. Thus, WIDE reverse implements Web2 to Web3 onboarding solutions in dataflows optimised for verifiers.
+
+---
 
   encrypt them, keep decentralised identity wallet that usesEuropean Digital Identity in the form of verifiable credentials according to the W3C verifiable credential data model v.2 [W3CVC] associate and ecnrypt the contained claims using Ethereum-compliant key pairs of the secp256k
 
