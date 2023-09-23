@@ -45,9 +45,24 @@ For enabling Web3 identities to be used by DAOs and in education, **WIDE** enabl
 
 ## Functionalities
 
-The WIDE digital identity bridge enables users to export identity data from wallets of closed identity networks and use the identity data with their Ethereum-compliant key pairs throughout full identity lifecycles. All data is protected through client-side encryption and presented to relying parties through reversed Open Identity Connect flows. In short, WIDE provides exporting, persisting, as well as encryption -, storage -, and presentation capabilities for long-lived any-wise identifiers in storage-scarce Web3 wallets. 
+The WIDE digital identity bridge enables users to export identity data from wallets of closed identity networks and use the identity data with their Ethereum-compliant key pairs throughout full identity lifecycles. All data is protected through client-side encryption and presented to relying parties by the wallet user, employing a reversed Open Identity Connect [OIDC] flow. In short, WIDE provides export, persistance, as well as encryption -, storage -, and presentation capabilities for long-lived any-wise identifiers in storage-scarce Web3 wallets. 
 
-Bridging refers to the privacy preserving, but server-based remote storage of encrypted claims and their presentation over Web2 flows. When the wallet presents claims, it requests them from the WIDE bridging server. The wallet then acts as a proxy to forward the data to the relying party. The relying party can verify that a dataset with the same hash was indeed uploaded. Thus, WIDE reverse implements Web2 to Web3 onboarding solutions in dataflows optimised for verifiers.
+In this context, bridging refers to the privacy preserving, but server-based remote storage of encrypted claim and the assured availability for identity presentations by holders on demand over Web2 flows. When the wallet presents claims, it requests them from the WIDE bridging server. The wallet then acts as a proxy, waits for the WIDE server to return data, the wallet then decrypts the data and forwards it to the relying party. The relying party can verify that a dataset was hashed upon upload to the WIDE bridging server and did not change.
+
+For this reason, WIDE logs entries over record uploads on Alastria Besu to enable trust assertions of verifiers (relying parties), because WIDE cannot attest to the validity or correctness of the data. Thus, bridging means that WIDE only attests to having seen a random but unique string at a given time from a specific address that signed the data. 
+
+Its strength, however, is that WIDE covers the gap of Web3-based Web2-logins. There are many solutions that allow Web2 onboarding to Web3, but only few have used Web3 technologies for Web2 authentication flows. For this reason, WIDE reverse implements Web2 to Web3 onboarding solutions in dataflows optimised for verifiers.
+
+WIDE uses the rich context of data from the European Digital Identity Wallet in the form of W3C verifiable credentials v.2 [W3CVC]. It associates and encrypts the contained claims using Ethereum-compliant key pairs and over secp256k curves with ECDSA signatures. The user keeps an overview in the cache of the wallet solution, but uploads the signed and encrypted data including a hash to the WIDE server over an authenticated session.
+
+The bridging server then hashes the hash and stores it on chain. When a user requests the data from WIDE, assuming online-only use cases, the user authenticates using Log-in-with-Ethereum and requests structured, but encrypted claims. They then decrypt it on client side and act first as identity subject against a relying party to then return the requested information by the identity provider through acting as an identity provider.
+
+
+
+---
+Finally, the relying party can integrate a WIDE claim validator to check Alastria for logs.
+
+algorithms and in combination with SHA-256 compliant identifiers over 
 
 ---
 
@@ -55,7 +70,12 @@ Bridging refers to the privacy preserving, but server-based remote storage of en
 
 ## Architecture
 
+### Overview
+
 ![WIDE_General_Architecture](https://github.com/Consortium-WIDE/wide-core/assets/104435781/ab467a05-f8be-49e9-ace2-7858f48297bd)
+
+
+### Components
 
 ## Technologies
 
