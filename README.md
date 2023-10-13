@@ -9,7 +9,6 @@ authors: benedictvscriticus
 ![Group 57](https://github.com/Consortium-WIDE/wide-core/assets/104435781/b842c1f0-aa37-4079-9500-425732f286d3)
 
 **WIDE** is short for Web3 Identity for DAOs and Education. The project was incepted in response to the 2023 #OC1 by the NGI TRUSTCHAIN consortium. **WIDE** is being developed and maintained by a consortium led by acurraent UG, coordinated by Joshua Ellul, Director of the Centre for Distributed Ledger Technologies at the University of Malta, and the technical lead Matthew Scerri .
-## Abstract
 
 *WIDE addresses the challenges of market fragmentation and low interoperability for decentralised identity management. WIDE seeks uses decentralised ledger technology (DLT) for secure claim verification and encryption to integrate decentralised identity functionalities with decentralised autonomous organizations (DAOs), along with introducing authorization interfaces that may be more familiar to users of legacy systems. The architecture of WIDE is modular, designed to interact within distinct operational contexts: Issuers, Holders, and Verifiers. WIDE is being developed as an open-source project under the EUPL-1.2 License, emphasising our commitment to transparency and collaborative development.*
 
