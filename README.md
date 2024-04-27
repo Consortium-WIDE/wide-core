@@ -20,10 +20,14 @@ WIDE is a direct response to the high market fragmentation and low interoperabil
 
 Holders, i.e. end-users, currently have to manage a number of different authentication mechanisms used by Verifiers to allow for their credentials to be verified. WIDE proposes a solution to the fragmentation of Holder claims being spread across multiple sources and multiple standards by bridging the gap between the different models. It provides the Holder with the ability to capture and store claims securely from different identity providers remotely, while linking such claims to their Web3 wallet. Furthermore, WIDE aims to provide Verifiers with the option to interact with the Holder via either OAuth or Web3 to ensure future-proofing.
 
+## Concept
+
+![Domain Interaction](diagrams/WIDE_DomainInteractionTech.png)
+
 
 ## General Architecture
 The General Architecture shows the overall design of the WIDE, specifically focusing on the different components and the interaction between them.
-![General Architecture](diagrams/WIDE_General_Architecture.drawio.png)
+![General Architecture](diagrams/ID_Bridge_architecture.svg)
 
 ### Flows
 The flows provide an overview of the process through which a user may store, view, present and remove claims.
@@ -43,7 +47,7 @@ The flows provide an overview of the process through which a user may store, vie
 
 ## Disclaimer
 
-This research and development project is part of the **NGI TRUSTCHAIN #OC1**. All software code is provided as is and without warranty under permissible EUPL 1.2 licencing. This project is funded by a cascade funding partner through a Horizon Europe Grant under the TrustChain grant with grant agreement number: [101093274](https://doi.org/10.3030/101093274).
+This research and development project is part of the **[NGI TRUSTCHAIN #OC1](https://trustchain.ngi.eu/wide/)**. All software code is provided as is and without warranty under permissible EUPL 1.2 licencing. This project is funded by a cascade funding partner through a Horizon Europe Grant under the TrustChain grant with grant agreement number: [101093274](https://doi.org/10.3030/101093274).
 
-![NGI EU Funding](https://github.com/Consortium-WIDE/wide-core/assets/104435781/a4188f37-5e59-4100-a889-e6a6a18f7dbb)
+![NGI EU Funding](resources/Funded_by_NGI_TC_EU.svg)
 
